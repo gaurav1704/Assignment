@@ -1,0 +1,145 @@
+ body {
+        height: 768px;
+    }
+.btn {
+    border: 1px solid black;
+    width: 150px;
+    background-color: lightcyan;
+    opacity: 0.6;
+    color: black;
+    padding: 14px 28px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn1 {
+    border: 1px solid black;
+    width: 300px;
+    background-color: lightcyan;
+    opacity: 0.6;
+    color: black;
+    padding: 14px 28px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.info {
+    border-color: #037464;
+    color: #068d7b;
+}
+.info:hover {
+    background: #ae6de0;
+    color: white;
+}
+
+p{
+    font-size: 18;
+    color: gray;
+}
+#mySidenav a {
+    position: fixed; /* Position them relative to the browser window */
+    left: 1300px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+#mySidenav a:hover {
+    left: 1250; /* On mouse-over, make the elements appear as they should */
+}
+#home {
+    position:absolute;
+    top: 360px;
+    background-color: #4CAF50;
+}
+#category {
+    top: 420px;
+    background-color: #2196F3; /* Blue */
+}
+#about {
+    top: 480px;
+    background-color: #f44336; /* Red */
+}
+#contact {
+    top: 540px;
+    background-color: #555 /* Light Black */
+}
+
+.dropbtn {
+  background-color: rgb(247, 247, 247);
+  color: white;
+  padding: 1px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: absolute;
+  top: 10px;
+  display: inline-block;
+}
+
+.content {
+  display: none;
+  position: relative;
+  left: -80;
+  background-color: #f7f7f7;
+  opacity: 0.9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.content a {
+  color: black;
+  border: 2px solid lightgray;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.content a:hover {background-color: rgb(175, 185, 177);}
+
+.dropdown:hover .content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #ffffff;}
+
+#prev {
+  border-radius: 50%;
+  background-color: lightblue;
+  color: black;
+  position: absolute;
+  transition: 1s;
+  top: 200px;
+  left: -80px;
+  opacity: 0.2;
+  text-align: center;
+  width: 140;
+  height: 140;
+  font-size: 100px ;
+}
+#next {
+  border-radius: 50%;
+  background-color: lightblue;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  position: absolute;
+  transition: 1s;
+  top: 200px;
+  left: 1300px;
+  opacity: 0.2;
+  width: 140;
+  height: 140;
+  font: 100px Arial;
+}
+#prev:hover{
+    opacity: 0.7;
+    left: -40;
+    background: rgb(76, 175, 170);
+}
+#next:hover{
+    opacity: 0.7;
+    left: 1260;
+    background: rgb(76, 175, 170);
+}
